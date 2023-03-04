@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stful_wid/screens/chats.dart';
 import 'package:stful_wid/screens/home.dart';
 
 class MyApp extends StatelessWidget {
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         '/': (context) => HomePage(),
+        '/chats': (context) => Chat(),
       },
     );
   }

@@ -31,7 +31,9 @@ class RecentChats extends StatelessWidget {
               padding:
                   const EdgeInsets.symmetric(vertical: 15.5, horizontal: 4),
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.pushNamed(context, '/chats');
+                },
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: SizedBox(
